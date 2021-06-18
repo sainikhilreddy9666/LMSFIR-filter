@@ -60,6 +60,6 @@ y(k) = (transpose(w_new) * x_w);
 e(k)= d(k) - y(k);
 w_new = w_new + stepsize * ( e(k)*x_w);
 w(1,k)=w_new(1);
-w(2,k)=w_new(2);
+w(3,k)=w_new(3);
 end
 end
